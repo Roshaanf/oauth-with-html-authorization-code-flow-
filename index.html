@@ -61,7 +61,7 @@
 
             //AJAX REQUEST
             var xmlHttp = new XMLHttpRequest();
-           xmlHttp.open("POST", 'https://us-central1-agentproject-be016.cloudfunctions.net/sendToken', false); // false for synchronous request
+           xmlHttp.open("POST", 'https://us-central1-second-5bcbc.cloudfunctions.net/sendToken', false); // false for synchronous request
           // xmlHttp.open("POST", 'https://us-central1-second-5bcbc.cloudfunctions.net/sendToken', false);
            xmlHttp.setRequestHeader("Content-Type", "application/json");
             xmlHttp.send(JSON.stringify({ userEmail: email, userPassword: password }));
