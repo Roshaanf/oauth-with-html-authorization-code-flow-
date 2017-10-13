@@ -89,6 +89,7 @@
                 alert("incorrect email or password");
             else {
                 console.log('redirceting ',ACCESS_TOKEN)
+                alert(ACCESS_TOKEN)
                 window.location.href = 'https://oauth-redirect.googleusercontent.com/r/' + YOUR_PROJECT_ID + '?code=' + ACCESS_TOKEN + '&state=' + state
             }
         }
